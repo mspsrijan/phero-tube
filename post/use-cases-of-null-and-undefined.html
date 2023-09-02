@@ -45,9 +45,40 @@
       <img
         src="../images/use-cases-of-null-and-undefined.png"
         alt="Use cases of null and undefined"
+        class="max-h-80 object-contain"
       />
 
-      <h1>Use cases of null and undefined</h1>
+      <h1 class="text-4xl font-bold">Use cases of null and undefined</h1>
+
+      <p>
+        Null and undefined are often misunderstood as the same thing. They are
+        both falsy value, but there are some differences between nulll and
+        undefined.
+      </p>
+
+      <p>Undefined means absence of value whereas null itself is a value.</p>
+
+      <p><strong>Use Cases of Undefined:</strong></p>
+      <ul class="list-disc pl-7">
+        <li>
+          When a varibale is declared without initialization, it automatically
+          become undefined.
+        </li>
+        <li>When a var is hoisted, it only hoist the variable undefined.</li>
+        <li>
+          When we do not return anything from a function, it returns undefined.
+        </li>
+        <li>
+          When we try to access a object property which is not available, it
+          returns undefined.
+        </li>
+      </ul>
+
+      <p><strong>Use Cases of Null:</strong></p>
+      <ul class="list-disc pl-7">
+        <li>Null can be used to remove everything from a variable.</li>
+        <li>We can use null to initialize a variable</li>
+      </ul>
     </main>
   </body>
 </html>

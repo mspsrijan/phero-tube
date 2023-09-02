@@ -45,9 +45,47 @@
       <img
         src="../images/scope-of-var-let-and-const.png"
         alt="Scope of var, let, and const"
+        class="max-h-80 object-contain"
       />
 
-      <h1>Scope of var, let, and const</h1>
+      <h1 class="text-4xl font-bold">Scope of var, let, and const</h1>
+      <p>
+        Scopes can be a little wierd thing when you come to learn JavaScript
+        from a different programming language.
+      </p>
+
+      <p>
+        Before ES6, Javascript had two types of scope-
+        <strong>Function Scope</strong> and <strong>Global Scope</strong>. And
+        there was only only variable type- <strong>var</strong>.
+      </p>
+
+      <p>
+        Var is global scoped and function scoped. When a var is declared inside
+        a function, that var is only accessible inside that function. But if a
+        var is declared anywhere outside of a function scope whether it is in
+        global scope or in a block (i.e. in if-else block, for loop etc), it is
+        accessible from anywhere. For this nature, var poseess the risk of being
+        updated or replaced accidentally.
+      </p>
+
+      <p>
+        To fix this issue, ES6 introduced a new scope called
+        <strong>Block scope</strong> and two more variable type-
+        <strong>let</strong> and <strong>const</strong>.
+      </p>
+
+      <p>
+        Let and const are both block scoped, functions scoped and global scoped.
+        That means in addition to vars characteristics, let and const are
+        exclusive when they are declared inside of a block that is wrapped with
+        curly braces.
+      </p>
+
+      <p>
+        Additionally let and const cannot be redeclared like var. So these two
+        fixes the issues var has.
+      </p>
     </main>
   </body>
 </html>
